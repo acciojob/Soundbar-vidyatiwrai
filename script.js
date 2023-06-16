@@ -5,7 +5,7 @@ function playSound(soundFile) {
 }
 
 function stopSound() {
-    var audioElements = document.getElementsByTagName('audio');
+    var audioElements = document.getElementsByTagName('button');
     for (var i = 0; i < audioElements.length; i++) {
         audioElements[i].pause();
         audioElements[i].currentTime = 0;
